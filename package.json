@@ -1,0 +1,14 @@
+{
+  "name": "rock-church-kids-checkin",
+  "version": "1.0.0",
+  "description": "Local network kids check-in app for The Rock Church - syncs across tablets on the same wifi",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.4.0",
+    "express": "^4.21.0",
+    "socket.io": "^4.8.0"
+  }
+}
