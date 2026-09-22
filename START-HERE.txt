@@ -1,0 +1,40 @@
+CHILDREN CHECK IN — ANDROID TABLET APP
+
+1. Copy Children-Check-In.apk to your Android tablet (Android 8 or newer).
+2. Tap the APK in the tablet's Files/Downloads app.
+3. If Android asks, allow that app to install this APK, then tap Install.
+4. Open Children Check In from the tablet's app list.
+
+That's it. No host computer, server, account, Termux, or internet is needed.
+
+CHECK IN A FAMILY
+Open Check In. Select all the children under the same parent and tap Check In.
+The next available beeper is assigned immediately to all selected children.
+Give the parent the displayed number. There are no extra beeper/session fields
+or parent confirmation screen.
+
+CHECK OUT
+The compact Hub shows each child with their beeper number. Use Check Out for
+one child, or Group to check out everyone sharing that beeper. A shared beeper is
+available again only after the last child in its group checks out.
+
+HISTORY AND PRINTING
+Tap Check-In History next to Manage Kids. Choose dates or tap All history.
+You can search by child, parent, session label, or #beeper.
+Print / Save PDF opens Android's print screen. Choose a configured printer
+or Save as PDF. The app works offline; a Wi-Fi printer may need Wi-Fi.
+Export CSV saves a spreadsheet-compatible copy of the filtered attendance.
+
+YOUR EXISTING RECORDS
+The APK includes the 7 saved kids and 15 check-in records in your uploaded ZIP.
+They load once on the first launch. Existing active check-ins stay active.
+Records from the old app have the session label "Imported records".
+No later check-ins from the old server are automatically imported.
+
+BACKUPS
+Manage Kids > Save backup saves all kids and attendance to a JSON file.
+Manage Kids > Restore backup restores that file after you confirm replacement.
+Back up before uninstalling, clearing app data, or replacing the tablet.
+Existing-Data-Backup.json is a separate copy of the original imported records.
+
+Each tablet keeps its own records; tablets do not sync with one another.

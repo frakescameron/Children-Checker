@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Children Check In</title>
+<link rel="icon" href="icon.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-title">Children Check In <span class="local-label">Saved on this tablet</span></div>
+  <nav class="topbar-nav" aria-label="Main navigation">
+    <button class="nav-btn active" data-view="hub">Hub</button>
+    <button class="nav-btn" data-view="checkin">Check In</button>
+    <button class="nav-btn" data-view="roster">Manage Kids</button>
+    <button class="nav-btn" data-view="history">Check-In History</button>
+  </nav>
+</header>
+<main id="app"></main>
+<div id="modalRoot"></div>
+<div id="toast" role="status"></div>
+<script src="store.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
